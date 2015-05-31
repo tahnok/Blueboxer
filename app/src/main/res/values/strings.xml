@@ -4,4 +4,7 @@
     <string name="action_settings">Settings</string>
     <string name="action_more_info">More Info on Blueboxes</string>
     <string name="action_view_source">View Source on Github</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+  <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
