@@ -1,16 +1,9 @@
-<LinearLayout
-  xmlns:android="http://schemas.android.com/apk/res/android"
-  android:layout_width="fill_parent"
-  android:layout_height="fill_parent"
-  android:gravity="center"
-  android:orientation="vertical"
-  >
-  <Button
-    android:id="@+id/button_2600"
-    android:text="2600"
-    android:layout_height="64dp"
-    android:layout_width="fill_parent"
-    />
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent">
+
   <LinearLayout
     style="@style/button_row"
     android:layout_height="wrap_content"
@@ -81,7 +74,7 @@
     >
     <Button
       android:id="@+id/button_star"
-      android:text="SP"
+      android:text="*"
       style="@style/dial_button"
       />
     <Button
@@ -91,7 +84,7 @@
       />
     <Button
       android:id="@+id/button_pound"
-      android:text="KP"
+      android:text="#"
       style="@style/dial_button"
       />
   </LinearLayout>

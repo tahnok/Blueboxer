@@ -3,7 +3,7 @@ package me.tahnok.blueboxer;
 
 import android.media.MediaPlayer;
 import android.os.Bundle;
-import android.app.Fragment;
+import android.support.v4.app.Fragment;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -29,7 +29,6 @@ public class MFFragment extends Fragment {
   final ArrayBlockingQueue<Integer> integerQueue = new ArrayBlockingQueue<>(100);
 
   public static MFFragment newInstance() {
-
     MFFragment fragment = new MFFragment();
     Bundle args = new Bundle();
     fragment.setArguments(args);
